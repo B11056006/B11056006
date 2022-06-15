@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 微軟正黑體;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+article {
+    font-size: 15px;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1em;
+    padding: 20px;
+    background-color: rgb(122, 46, 167);
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    border: 1px yellow solid;
+}
+
+.sty1 {
+    background-color: lightgreen;
+}
+
+.sty1 ul {
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+
+.sty1 ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.sty1 ul li a {
+    color: #CA5D87;
+    text-decoration: none;
+}
+
+.sty1 ul li a:hover {
+    color: #4593d3;
+    text-decoration: underline;
+}
+
+.sty2 {
+    background-color: lightblue;
+}
+
+.sty2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 377px;
+}
+
+#tab1 {
+    background-color: gray;
+}
+
+.box1 {
+    color: #dafe86;
+}
+
+#tab2 {
+    background-color: lightgray;
+}
+
+.box2 {
+    color: #CA5D87;
+}
