@@ -1,0 +1,136 @@
+@media (min-width: 767px) {
+    .header-area .main-nav .nav {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-area .main-nav .logo {
+        color: #1e1e1e;
+    }
+    .header-area.header-sticky .nav li a:hover,
+    .header-area.header-sticky .nav li a.active {
+        color: rgb(8, 125, 8)!important;
+        opacity: 1;
+    }
+    .header-area.header-sticky .nav li.search-icon a {
+        width: 100%;
+    }
+    .header-area {
+        background-color: #f7f7f7;
+        padding: 0px 15px;
+        height: 100px;
+        box-shadow: none;
+        text-align: center;
+    }
+    .header-area .container {
+        padding: 0px;
+    }
+    .header-area .logo {
+        margin-left: 30px;
+    }
+    .header-area .menu-trigger {
+        display: block !important;
+    }
+    .header-area .main-nav {
+        overflow: hidden;
+    }
+    .header-area .main-nav .nav {
+        float: none;
+        width: 100%;
+        display: none;
+        -webkit-transition: all 0s ease 0s;
+        -moz-transition: all 0s ease 0s;
+        -o-transition: all 0s ease 0s;
+        transition: all 0s ease 0s;
+        margin-left: 0px;
+    }
+    .header-area .main-nav .nav li:first-child {
+        border-top: 1px solid #eee;
+    }
+    .header-area.header-sticky .nav {
+        margin-top: 100px !important;
+    }
+    .header-area .main-nav .nav li {
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header-area .main-nav .nav li a {
+        height: 50px !important;
+        line-height: 50px !important;
+        padding: 0px !important;
+        border: none !important;
+        background: #f7f7f7 !important;
+        color: #191a20 !important;
+    }
+    .header-area .main-nav .nav li a:hover {
+        background: #eee !important;
+        color: rgb(8, 125, 8)!important;
+    }
+}
+
+@media (max-width: 991px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .mobile-top-fix {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .mobile-bottom-fix {
+        margin-bottom: 30px;
+    }
+    .mobile-bottom-fix-big {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    #top {
+        padding-top: 100px;
+        height: auto;
+    }
+    .header-area .main-nav .nav li {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .header-area .main-nav .nav li a {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    #top .left-content {
+        text-align: center;
+        padding: 25% 0px;
+    }
+    #history .right-content {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    #attractions .chef-item {
+        margin-bottom: 30px;
+    }
+    footer .right-text-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    footer .left-text-content p {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-area .main-nav .nav li {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .header-area .main-nav:before {
+        display: none;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
